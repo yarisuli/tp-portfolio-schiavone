@@ -1,0 +1,104 @@
+.contacto-section {
+  background-color: #163A2E;
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.contacto-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contacto-title {
+  font-family: 'Alegreya', serif;
+  color: #3CB371;
+  font-size: 5rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: -1.5rem;
+  text-align: center;
+}
+
+.contacto-text {
+  font-family: 'Source Sans 3', sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+.contacto-row {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.contacto-row .contacto-input {
+  flex: 1;
+}
+
+.contacto-input,
+.contacto-textarea {
+  background-color: #3C5A57;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.contacto-input::placeholder,
+.contacto-textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contacto-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contacto-button {
+  background-color: #D2691E;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contacto-button:hover {
+  background-color: #B8591A;
+}
+
+.contacto-button:active,
+.contacto-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #D2691E;
+}
+

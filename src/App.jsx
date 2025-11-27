@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import Servicios from './components/Servicios'
 import Capacitacion from './components/Capacitacion'
 import Portfolio from './components/Portfolio'
+import Contacto from './components/Contacto'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Servicios />
       <Capacitacion />
       <Portfolio />
+      <Contacto />
     </>
   )
 }
