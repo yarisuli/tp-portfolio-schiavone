@@ -37,6 +37,16 @@
   position: relative;
   z-index: 10;
   transform: translateY(-100px);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.hero-left .btn-hoja-vida:hover {
+  transform: translateY(-101px) !important;
+}
+
+.hero-left .btn-hoja-vida:active,
+.hero-left .btn-hoja-vida:focus {
+  transform: translateY(-100px) !important;
 }
 
 .hero-content {
@@ -47,6 +57,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+  transform: translateY(-2rem);
 }
 
 .hero-title {
@@ -83,17 +94,31 @@
   font-weight: 600;
   font-size: 1.25rem;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
   font-family: 'Source Sans 3', sans-serif;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-hoja-vida:link,
+.btn-hoja-vida:visited,
+.btn-hoja-vida:hover,
+.btn-hoja-vida:active,
+.btn-hoja-vida:focus {
+  color: #fff;
 }
 
 .btn-hoja-vida:hover {
   background-color: #B8591A;
-  transform: translateY(-30px);
 }
 
-.btn-hoja-vida:active {
-  transform: translateY(0);
+.btn-hoja-vida:active,
+.btn-hoja-vida:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #D2691E;
+  transform: none;
+  color: #fff;
 }
 
 

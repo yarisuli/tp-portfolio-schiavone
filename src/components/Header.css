@@ -70,7 +70,17 @@
   font-weight: 600;
   font-size: 1.25rem;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-agendar:link,
+.btn-agendar:visited,
+.btn-agendar:hover,
+.btn-agendar:active,
+.btn-agendar:focus {
+  color: #fff;
 }
 
 .btn-agendar:hover {
@@ -78,7 +88,12 @@
   transform: translateY(-1px);
 }
 
-.btn-agendar:active {
-  transform: translateY(0);
+.btn-agendar:active,
+.btn-agendar:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #D2691E;
+  transform: none;
+  color: #fff;
 }
 

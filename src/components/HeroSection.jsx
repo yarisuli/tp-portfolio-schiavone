@@ -5,7 +5,7 @@ function HeroSection() {
     <section className="hero-section">
       <div className="hero-left">
         <img src="/schia.png" alt="Schiavone" className="hero-left-image" />
-        <button className="btn-hoja-vida">Hoja de vida</button>
+        <a href="https://www.youtube.com/watch?v=V7HdWeYbV3Q" target="_blank" rel="noopener noreferrer" className="btn-hoja-vida">Hoja de vida</a>
       </div>
       <div className="hero-content">
         <h1 className="hero-title">
