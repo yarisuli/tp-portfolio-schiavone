@@ -1,0 +1,89 @@
+.capacitacion-section {
+  background-color: #163A2E;
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.capacitacion-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capacitacion-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.capacitacion-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
+.capacitacion-title {
+  font-family: 'Alegreya', serif;
+  color: #fff;
+  font-size: 5.5rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 1rem;
+  margin-top: -1.5rem;
+  text-align: right;
+  line-height: 1;
+}
+
+.capacitacion-text {
+  text-align: right;
+  margin: 0;
+  line-height: 1;
+}
+
+.capacitacion-text-orange {
+  font-family: 'Source Sans 3', sans-serif;
+  color: #D2691E;
+  font-size: 2.3rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0;
+}
+
+.capacitacion-text-white {
+  font-family: 'Source Sans 3', sans-serif;
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.capacitacion-text-extra-light {
+  font-family: 'Source Sans 3', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 200;
+  display: block;
+}
+
+.capacitacion-text-normal {
+  font-family: 'Source Sans 3', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
