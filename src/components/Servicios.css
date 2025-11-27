@@ -43,6 +43,12 @@
   border-radius: 8px;
   flex-shrink: 0;
   transform: translateX(-5px);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.servicio-image:hover {
+  transform: translateX(-5px) scale(1.05);
 }
 
 .ver-mas {
@@ -54,9 +60,23 @@
   font-weight: 500;
   color: #000;
   cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .ver-mas span {
   color: #000;
+  transition: color 0.3s ease;
+}
+
+.ver-mas:hover {
+  color: #7C8B86;
+}
+
+.ver-mas:hover span {
+  color: #7C8B86;
+}
+
+.ver-mas:hover svg path {
+  stroke: #7C8B86;
 }
 
