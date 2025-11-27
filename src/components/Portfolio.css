@@ -1,5 +1,28 @@
 .portfolio-section {
+  background-color: #163A2E;
   width: 100%;
   min-height: 100vh;
+  padding: 2rem 2rem 4rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.portfolio-title {
+  font-family: 'Alegreya', serif;
+  color: #3CB371;
+  font-size: 7rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
 
