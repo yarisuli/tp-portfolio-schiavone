@@ -6,7 +6,7 @@ function Contacto() {
       <img src="/fancy.png" alt="Fancy" className="contacto-fancy-image" />
       <div className="contacto-content">
         <h2 className="contacto-title">Contactame</h2>
-        <p className="contacto-text">Completa la informacion y me pondre en contacto</p>
+        <p className="contacto-text">Completa la información y me pondré en contacto</p>
         <form className="contacto-form">
           <div className="contacto-field">
             <input 
@@ -19,7 +19,7 @@ function Contacto() {
             <input 
               type="tel" 
               className="contacto-input"
-              placeholder="Numero de telefono"
+              placeholder="Número de teléfono"
             />
           </div>
           <div className="contacto-row">
@@ -27,7 +27,7 @@ function Contacto() {
               <input 
                 type="text" 
                 className="contacto-input"
-                placeholder="Servicio de interes"
+                placeholder="Servicio de interés"
               />
             </div>
             <div className="contacto-field">
@@ -42,12 +42,12 @@ function Contacto() {
             <textarea 
               className="contacto-textarea"
               rows="5"
-              placeholder="Descripcion amplia del motivo"
+              placeholder="Descripción amplia del motivo"
             />
           </div>
-          <a href="https://www.youtube.com/watch?v=eNNkG0s9CB0" target="_blank" rel="noopener noreferrer" className="contacto-button">
+          <button type="submit" className="contacto-button">
             Ponerme en contacto
-          </a>
+          </button>
         </form>
         <div className="contacto-social">
           <div className="contacto-social-item">

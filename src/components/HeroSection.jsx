@@ -9,10 +9,10 @@ function HeroSection() {
       </div>
       <div className="hero-content">
         <h1 className="hero-title">
-          Tomas Franco<br />
+          Tomás Franco<br />
           <span className="hero-title-name">Schiavone</span>
         </h1>
-        <h2 className="hero-subtitle">Barberia y Estilismo</h2>
+        <h2 className="hero-subtitle">Barbería y Estilismo</h2>
       </div>
     </section>
   )
